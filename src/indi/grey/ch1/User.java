@@ -9,7 +9,7 @@ public class User {
 	private String name;
 	private String id;
 	private int age;
-	public String address;
+	private String address;
 
 
 	public String getName() {
@@ -42,6 +42,23 @@ public class User {
 	public String toString() {
 		return "User [address=" + address + ", age=" + age + ", id=" + id + ", name=" + name + "]";
 	}
+
+
+	
+	public User() {
+	}
+	
+	public User(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	
+	public static String getCountry(){
+
+		return "TW";
+	}
+
 
 
 

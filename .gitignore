@@ -1,1 +1,3 @@
-bin/*
+bin/**/*.*
+
+bin/indi/grey/ch1/Ch1.class
