@@ -28,28 +28,6 @@ public class Main {
 		// System.out.println(adam.toString());
 
 
-		Date d = new Date();
-
-		Calendar c = Calendar.getInstance();
-		
-
-
-		int temp = 10;
-
-		LOOP_1:
-		for (int i = 0; i < temp; i++) {
-			LOOP_2:
-			for (int j = 0; j < temp; j++) {
-				
-				System.out.println("abc");
-				if(j==i){
-					break LOOP_1;
-					// continue;
-				}
-			}
-		}
-
-
 		StringBuilder sb = new StringBuilder();
 
 		String a = "123"+"456"+"67889";
